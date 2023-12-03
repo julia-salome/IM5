@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"> <!-- Verknüpfung mit style.css -->
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script>
+      $(document).ready(function() {
+        $("#anmeldenForm").submit(function(e) {
+          e.preventDefault(); 
+          $.ajax({
+            type: "POST",
+            url: "dein_anmelde_skript.php", 
+            data: $(this).serialize(),
+            success: function(response) {
+              console.log(response);
+            },
+            error: function(error) {
+              console.log("Fehler beim Anmeldevorgang: " + error);
+            }
+          });
+        });
+      });
+    </script>
+
+    <title>Barbie Shopping Guide</title>
+</head>
+<body>
+    <header id="top">        
+        <nav>
+            <ul>
+                <li><a href="#" id="top-link">Home</a></li>
+                <li><a href="#logo">Logo-Tops</a></li>
+                <li><a href="#pink">Accessoires</a></li>
+                <li><a href="#makeup">Make-Up</a></li>
+                <li><a href="#shoes">Schuhe</a></li>                  
+            </ul>
+        </nav>
+    </header>
+
+    <div class="music-icon">
+        <a href="https://open.spotify.com/intl-de/album/0BaIaHcyBXuOWeM4Aas4EW?si=ObpvS_BySLObbxY4ChiPIA" target="_blank">
+            <img src="img/musik.png" alt="Spotify öffnen">
+        </a>
+    </div>
+
+
+    <div class="text-box-container">
+        <div class="text-box">
+            <h1>Hey Barbie!</h1>
+            <img class="barbie-image" src="img/barbie_kopf.png" alt="Barbie Kopf">
+            <p>Willkommen auf unserem Barbie-Fashion-Blog! 
+            Tauche ein in die Welt der ikonischen Styles der Plastik-Puppe.
+            Von Tops über Schuhe bis hin zum passenden Schmuck präsentieren wir eine vielfältige Kollektion als
+            Inspiration für jeden Barbie-Fan. </p>
+           <p>Lass dich inspirieren!</p> 
+        </div>
+    </div>
+
+
+    
+    <section class="image-gallery" id="logo">
+        <h2>Trag das Logo!</h2>
+        <div class="image-row">
+            <a href="https://www.zalando.ch/pullandbear-sweatshirt-pink-puc21j11k-j11.html" target="_blank"><img src="img/1.webp" alt="Bild 1"></a>
+            <a href="https://www.zalando.ch/noisy-may-nmhailey-barbie-license-t-shirt-print-obsidian-nm321d0t7-q11.html" target="_blank"><img src="img/2.webp" alt="Bild 2"></a>
+            <a href="https://www.zalando.ch/pullandbear-barbie-top-pink-puc21d2h2-j11.html" target="_blank"><img src="img/3.webp" alt="Bild 3"></a>
+            <a href="https://www.zalando.ch/wrangler-ringer-tee-t-shirt-print-barbie-pink-wr121d03i-j11.html" target="_blank"><img src="img/4.webp" alt="Bild 4"></a>
+            <a href="https://www.zalando.ch/cotton-on-barbie-hoodie-kapuzenpullover-black-c1q21j01j-q11.html" target="_blank"><img src="img/5.webp" alt="Bild 5"></a>
+            <a href="https://www.zalando.ch/cotton-on-barbie-hoodie-kapuzenpullover-pink-c1q21j01j-j11.html" target="_blank"><img src="img/6.webp" alt="Bild 6"></a>
+            <a href="https://www.zalando.ch/pullandbear-barbie-t-shirt-print-white-puc21d2h3-a11.html" target="_blank"><img src="img/7.webp" alt="Bild 7"></a>
+            <a href="https://www.zalando.ch/cotton-on-barbie-boyfriend-fit-tee-t-shirt-print-grey-c1q21d06q-c11.html" target="_blank"><img src="img/8.webp" alt="Bild 8"></a>
+            <a href="https://www.zalando.ch/gap-tall-sweatshirt-pink-gah21j01c-j11.html" target="_blank"><img src="img/9.webp" alt="Bild 9"></a>
+        </div>
+    </section>
+
+    <!-- Bildergalerie Abschnitt 2 -->
+    <section class="image-gallery" id="pink">
+        <h2>Schmück dich Pink!</h2>
+        <div class="image-row">
+            <a href="https://www.zalando.ch/bershka-clutch-light-pink-bej51h0fd-j11.html" target="_blank"><img src="img/10.webp" alt="Bild 10"></a>
+            <a href="https://www.zalando.ch/bershka-barbie-shopper-shopping-bag-light-pink-bej51h0ev-j11.html" target="_blank"><img src="img/11.webp" alt="Bild 11"></a>
+            <a href="https://www.zalando.ch/fossil-barbie-halskette-gold-coloured-fs151l0zj-f11.html" target="_blank"><img src="img/12.webp" alt="Bild 12"></a>
+            <a href="https://www.zalando.ch/fossil-barbie-mop-halskette-gold-coloured-fs151l0zk-f11.html" target="_blank"><img src="img/13.webp" alt="Bild 13"></a>
+            <a href="https://www.zalando.ch/fossil-barbie-ring-gold-coloured-fs151l0zh-f11.html" target="_blank"><img src="img/14.webp" alt="Bild 14"></a>
+            <a href="https://www.zalando.ch/fossil-armband-gold-colouredpink-fs151l0zi-f11.html" target="_blank"><img src="img/15.webp" alt="Bild 15"></a>
+        </div>
+    </section>
+
+    <section class="image-gallery" id="makeup">
+        <h2>Schmink dich pink!</h2>
+        <div class="image-row">
+            <a href="https://www.zalando.ch/makeup-revolution-revolution-blusher-reloaded-rouge-violet-love-m6o34e06b-j17.html" target="_blank"><img src="img/16.webp" alt="Bild 16"></a>
+            <a href="https://www.zalando.ch/nyx-professional-makeup-barbie-smooth-whip-lip-cream-lippenstift-perfect-day-pink-ny631e07d-j12.html" target="_blank"><img src="img/17.webp" alt="Bild 17"></a>
+            <a href="https://www.zalando.ch/nyx-professional-makeup-fat-oil-lip-drip-lippgloss-lipgloss-pink-ny631e06o-j12.html" target="_blank"><img src="img/18.webp" alt="Bild 18"></a>
+            <a href="https://www.zalando.ch/nyx-professional-makeup-system-ny631e07b-t11.html" target="_blank"><img src="img/19.webp" alt="Bild 19"></a>
+            <a href="https://www.zalando.ch/nyx-professional-makeup-hlwn-23-sfx-stcks-lidschatten-bow-down-witches-ny631e07j-j11.html" target="_blank"><img src="img/20.webp" alt="Bild 20"></a>
+            <a href="https://www.zalando.ch/makeup-revolution-revolution-reloaded-dimension-shadow-palette-lidschattenpalette-vivid-passion-m6o34e0aa-t12.html" target="_blank"><img src="img/21.webp" alt="Bild 21"></a>
+        </div>
+    </section>
+
+    <section class="image-gallery" id="shoes"> 
+        <h2>& Last but not least: Shoes.</h2>
+        <div class="image-row">
+            <a href="https://www.zalando.ch/steve-madden-carlita-riemensandalette-pink-st311a0qa-j11.html" target="_blank"><img src="img/23.webp" alt="Bild 23"></a>
+            <a href="https://www.zalando.ch/aldo-barbie-high-heel-sandalette-medium-pink-a0111a0un-j11.html?size=35&allophones=0&wmc=SEM410_NB_GO._4127843883_710948826_40757020927.&opc=2211&mpp=google|v1||pla-297612067635||20143||g|c||163886194967||pla|A0111A0UN-J110350000|297612067635|1|&gclsrc=aw.ds&gclid=Cj0KCQiAr8eqBhD3ARIsAIe-buOmp3pbL9F3lJ3dod_z4wSbCNvpyYk7xKKP_2bpL9pJUGQaIICKVyQaAiRPEALw_wcB" target="_blank"><img src="img/24.webp" alt="Bild 24"></a>
+            <a href="https://www.zalando.ch/superga-2750-barbie-sneaker-low-whitepink-su111a0ct-a11.html" target="_blank"><img src="img/25.webp" alt="Bild 25"></a>
+            <a href="https://de.eschuhe.ch/p/pantoletten-crocs-crocs-classic-barbie-clog-208817-electric-pink-6qq-0000303092252?utm_source=google&utm_medium=cpc&utm_campaign=_CH-FR_PMAX_CSS_WYKLUCZONE_ALL&is_retargeting=true&pid=google&af_sub1=cpc&c=_CH-FR_PMAX_CSS_WYKLUCZONE_ALL&af_click_lookback=1d&af_reengagement_window=7d&gad_source=1&gclid=Cj0KCQiAr8eqBhD3ARIsAIe-buN9b4fssBVTFuBjGOfgBZ7c26WsbOSn56zmUhMrNFp-JdXMNGnHLksaAkDyEALw_wcB" target="_blank"><img src="img/26.webp" alt="Bild 26"></a>
+            <a href="https://www.zalando.ch/raid-domino-high-heel-stiefel-pink-rad11a0lq-j11.html" target="_blank"><img src="img/27.webp" alt="Bild 27"></a>
+            <a href="https://www.zalando.ch/evenandodd-schnuerstiefelette-pink-ev411n0d1-j11.html" target="_blank"><img src="img/28.webp" alt="Bild 28"></a>
+        </div>
+    </section>
+
+
+    <div class="profile-section">
+        <h3 class="section-title">Das MMP-Barbie</h3>
+        <img class="profile-image" src="img/julia2.png" alt="Dein Profilbild">
+        <p class="profile-text">Ich bin Julia Stuber, eine gelernte Polygrafin und Multimedia Production Studentin an der HKB in Bern.
+
+            <br> Da ich als kleines Mädchen immer mit Barbies gespielt habe,
+            <br> freute ich mich riesig als der Spielfilm in 2023 auf der Kino Leinwand erschien.  
+            <br> Zu Ehren der Abenteuer-Komödie möchte ich einige Kaufempfehlungen mit euch teilen!</p>
+    </div>
+    
+    <div class="newsletter-signup">
+        <h2>Newsletter</h2>
+        <p id="confirmation-message">Melde dich an und verpasse nie mehr neue Barbie-Produkte!</p>
+        <form id="newsletter-form" action="newsletter_subscribe.php" method="post">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" name="name" placeholder="z.B Barbie" required>
+            </div>
+            <div class="form-group">
+                <label for="email">E-Mail-Adresse:</label>
+                <input type="email" name="email" placeholder="Deine E-Mail-Adresse" required>
+            </div>
+            <div class="newsletter-signup">
+                <input type="submit" value="Anmelden">
+            </div>
+        </form>
+    </div>
+    
+        </form>
+    </div>
+
+
+
+ 
+
+    <script>
+        function scrollToTop() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+    </script>
+
+
+
+
+ <script src="script.js"></script>
+</body>
+
+
+<footer>
+    <div class="footer-content">
+        <button onclick="scrollToTop()" id="scroll-top-button">TOP</button> 
+
+        <h3 class="contact-info">
+            <a href="mailto:julia-salome@hotmail.com">E-Mail</a>
+            <span> | </span>
+            <a href="https://www.instagram.com/julia.salome.art/" target="_blank">Instagram</a>
+            <span> | </span>
+            <a href="https://www.linkedin.com/in/julia-stuber-02a9b51a1/" target="_blank">Linkedin</a>
+            <span> | </span>
+            <a href="https://www.juliasalome.ch" target="_blank">Homepage</a>
+    </div
+
+</footer>
+</html>

@@ -1,0 +1,355 @@
+header {
+    width: 100%;
+    background-color: #FF69B4;
+    text-align: center;
+    background-image: url('img/barbie_kopf.png'); /* Hintergrundbild setzen */
+    background-size: cover; /* Das Bild wird so skaliert, dass es den gesamten Header bedeckt */
+    background-position: center; /* Das Bild wird zentriert positioniert */
+    position: sticky;
+    height: 50%; /* Höhe auf 50% setzen */
+    overflow: hidden; /* Verhindert das Überlaufen von Inhalten */
+    top: 0;
+    z-index: 999;
+}
+
+/* Styling für das Menü */
+header nav {
+    background-color: hsl(0, 0%, 100%);
+    padding: 20px;
+    position: sticky;
+}
+
+header nav ul {
+    list-style: none;
+    color: hsl(330, 100%, 75%);
+
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color:hsl(330, 100%, 90%);
+    font-weight: bold;
+    padding: 15px;
+    border-radius: 1em;
+    transition: background-color 0.3s;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header nav ul li a:hover {
+    color:hsl(329, 100%, 77%);
+    border-radius: 1em;
+}
+
+
+.profile-section {
+    background-color: #FFF; /* Hintergrundfarbe ändern, falls gewünscht */
+    padding: 20px;
+    text-align: left; /* Text linksbündig ausrichten */
+    margin-top: 20px; /* Fügt Abstand zum vorherigen Abschnitt hinzu */
+}
+
+.section-title {
+    font-size: 2em;
+    font-weight: 700;
+    font-style: italic;
+    color: rgb(255, 136, 196);
+}
+
+.profile-content {
+    display: flex;
+    align-items: center;
+    margin-top: 20px; /* Fügt Abstand zwischen dem Titel und dem Profilbild hinzu */
+}
+
+.profile-image {
+    max-width: 300px; /* Erhöhe die Breite des Profilbilds auf 200px (angepasst nach Bedarf) */
+    height: auto;
+    margin-right: 20px; /* Fügt Abstand zwischen dem Profilbild und dem Text hinzu */
+    display: block; /* Zentriert das Bild horizontal */
+    margin: 0 auto; /* Zentriert das Bild horizontal */
+}
+
+.profile-text {
+    font-size: 1.1em;
+    text-align: center;
+    line-height: 1.5; /* Verringert den Zeilenabstand, falls gewünscht */
+    font-family: 'Neue Schriftart', sans-serif; /* Hier kannst du die gewünschte Schriftart einfügen */
+}
+
+
+
+.image-gallery {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px; /* Hier kannst du den Radius anpassen, um die Ecken mehr oder weniger abzurunden */
+    padding: 0 200px; /* Fügt links und rechts 20px Padding hinzu */
+}
+
+.image-gallery img:hover {
+    opacity: 80%;
+}
+
+
+.image-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: -10px; /* Äußerer Abstand zu den Rändern */
+}
+
+.image-row a {
+    flex-basis: calc(33.33% - 20px); /* 3 Bilder pro Zeile mit 20px Abstand */
+    margin: 10px;
+}
+
+.image-row img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.text-box {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0 auto; /* Horizontal zentriert */
+    max-width: 800px; /* Maximale Breite der Textboxen, anpassen nach Bedarf */
+}
+
+
+.text-box-container {
+    padding: 20px; 
+}
+
+
+p {
+    font-size: 1.1em; 
+    font-family: 'Montserrat', sans-serif;
+    line-height: 2;
+    
+    }
+
+h1 {
+    font-size: 5em; /* Doppelt so groß wie die Standardeinstellung */
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700; /* Semi-Bold */
+    font-style: italic;
+    color: rgb(255, 136, 196);
+}
+
+h2 {
+    font-size: 3em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: rgb(255, 136, 196);
+    padding-top: 2em; /* Dies fügt den gewünschten oberen Abstand hinzu */
+    scroll-margin-top: 2em; /* Fügt den gewünschten oberen Abstand für die Navigation hinzu */
+}
+
+h3 {
+    font-size: 1.1em; /* Doppelt so groß wie die Standardeinstellung */
+    font-family: 'Montserrat', sans-serif;
+    color:hsl(330, 100%, 90%);
+    text-align: center;
+
+}
+
+h3 a {
+    color:hsl(330, 100%, 90%);
+    text-decoration: none; /* Entfernt die unterstrichene Textdekoration */
+    transition: color 0.3s; /* Fügt eine sanfte Farbübergangsanimation hinzu */
+}
+
+h3 a:hover {
+    color:hsl(329, 100%, 77%);
+}
+
+
+.barbie-image {
+    max-width: 100px; 
+    height: auto; 
+    margin-bottom: 40px;
+}
+
+  
+.button {
+    cursor: url('normal-cursor.png'), auto;
+    
+  }
+
+  .newsletter-signup {
+    background-color: #fff; /* Hintergrundfarbe ändern, falls gewünscht */
+    text-align: center;
+    max-width: 600px; /* Maximale Breite des Anmeldefelds anpassen */
+    margin: 0 auto; /* Zentrieren des Anmeldefelds horizontal */
+    border-radius: 5px; /* Runde Ecken für das Anmeldefeld */
+}
+
+.newsletter-signup h2 {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #FF69B4; /* Überschriftenfarbe ändern */
+}
+
+.newsletter-signup p {
+    font-size: 1em;
+    font-family: 'Montserrat', sans-serif;
+    font: optional;
+    color: #333; /* Textfarbe ändern */
+    margin-bottom: 20px;
+}
+
+.newsletter-signup label, .newsletter-signup input {
+    font-size: 1em;
+    font-family: 'Montserrat', sans-serif;
+    font: optional;
+    color: #333; /* Textfarbe ändern */
+    margin-bottom: 20px;
+}
+
+
+.newsletter-signup input[type="email"] {
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.newsletter-signup input[type="submit"] {
+    background-color: #FF69B4; /* Hintergrundfarbe des Anmeldebuttons ändern */
+    color: #fff; /* Schriftfarbe des Anmeldebuttons ändern */
+    padding: 10px 20px 10px;
+    border: none;
+    margin-left: 0px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s; /* Hinzufügen einer Hintergrundfarbenanimation beim Überfahren */
+}
+
+
+
+
+.newsletter-signup input[type="submit"]:hover {
+    font-size: 1em;
+
+    font-family: 'Montserrat', sans-serif;
+    background-color: #FF1493; /* Hintergrundfarbe bei Hover ändern */
+}
+
+.form-group {
+    display: flex;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.form-group label {
+    flex: 1; /* Flexbox: Labels nehmen den verfügbaren Platz ein */
+    text-align: left; /* Labels links ausrichten */
+    margin-right: 10px; /* Abstand zwischen Label und Input */
+}
+
+.form-group input {
+    flex: 2; /* Flexbox: Eingabefelder nehmen den verfügbaren Platz ein */
+    width: calc(100% - 20px); /* Breite anpassen, um den Platz für das Padding zu berücksichtigen */
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    width: 100%; 
+}
+
+
+
+
+
+
+
+
+.music-icon {
+    position: fixed;
+    right: 20px;
+    cursor: pointer;
+    animation: float 3s ease-in-out infinite;
+}
+
+.music-icon img {
+    width: 200px;
+    height: auto;
+}
+
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+}
+
+footer {
+    background-color: rgb(255, 255, 255);
+    padding: 50px;
+    text-align: right; /* Rechtsbündig ausrichten */
+    position: relative; /* Damit die Positionierung funktioniert */
+}
+
+footer button {
+    color:hsl(330, 100%, 90%);
+    font-weight: bold;
+    padding: 15px;
+    border: none;
+	box-shadow: 4px 4px 4px silver;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+    position: absolute; /* Position absolut innerhalb des Footers */
+    transform: translateY(-50%); /* Zur vertikalen Zentrierung */
+    background-color: #FFF;
+
+    right: 20px; 
+
+    animation: float 3s ease-in-out infinite;
+}
+
+footer button:hover {
+    background-color: hsl(329, 100%, 77%);
+}
+
+
+/* Media Query für kleinere Bildschirme (max. 1024px) */
+@media (max-width: 1024px) {
+    .image-row a {
+        flex-basis: calc(50% - 20px); /* 2 Bilder pro Zeile mit 20px Abstand */
+    }
+
+    .image-gallery {
+        padding: 0 0; /* Fügt links und rechts 20px Padding hinzu */
+    }
+}
+
+/* Media Query für noch kleinere Bildschirme (max. 767px) */
+@media (max-width: 767px) {
+    .image-row a {
+        flex-basis: calc(100% - 20px); /* 1 Bild pro Zeile mit 20px Abstand */
+    }
+    .music-icon { display: none;
+    }
+
+
+}
+
+    .image-gallery {
+        padding: 0 0; /* Fügt links und rechts 20px Padding hinzu */
+    }
+
+    @media (max-width: 700px){
+    footer button { 
+        display: none;
+    }
+    }
