@@ -10,8 +10,8 @@ Ich freue mich, dass ich jetzt weiss, wie man eine Seite von Grund auf erstellt 
 <br>
 - Youtube
   <br>
--Chat GPT
+- hat GPT
   <br>
--Google (Zufällige Foren)
+- Google (Zufällige Foren)
   <br>
 - Unterrichtsstoff FHGR IM1-5
