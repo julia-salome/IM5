@@ -7,7 +7,11 @@ Ich freue mich, dass ich jetzt weiss, wie man eine Seite von Grund auf erstellt 
 
 
 <b>Methoden</b>
-Youtube
-Chat GPT
-Google (Zufällige Foren)
-(Unterrichtsstoff FHGR IM1-5)
+<br>
+- Youtube
+  <br>
+-Chat GPT
+  <br>
+-Google (Zufällige Foren)
+  <br>
+- Unterrichtsstoff FHGR IM1-5
