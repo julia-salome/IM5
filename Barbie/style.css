@@ -2,17 +2,17 @@ header {
     width: 100%;
     background-color: #FF69B4;
     text-align: center;
-    background-image: url('img/barbie_kopf.png'); /* Hintergrundbild setzen */
-    background-size: cover; /* Das Bild wird so skaliert, dass es den gesamten Header bedeckt */
-    background-position: center; /* Das Bild wird zentriert positioniert */
+    background-image: url('img/barbie_kopf.png'); 
+    background-size: cover; 
+    background-position: center; 
     position: sticky;
-    height: 50%; /* Höhe auf 50% setzen */
-    overflow: hidden; /* Verhindert das Überlaufen von Inhalten */
+    height: 50%; 
+    overflow: hidden; 
     top: 0;
     z-index: 999;
 }
 
-/* Styling für das Menü */
+
 header nav {
     background-color: hsl(0, 0%, 100%);
     padding: 20px;
@@ -49,10 +49,10 @@ header nav ul li a:hover {
 
 
 .profile-section {
-    background-color: #FFF; /* Hintergrundfarbe ändern, falls gewünscht */
+    background-color: #FFF; 
     padding: 20px;
-    text-align: left; /* Text linksbündig ausrichten */
-    margin-top: 20px; /* Fügt Abstand zum vorherigen Abschnitt hinzu */
+    text-align: left; 
+    margin-top: 20px; 
 }
 
 .section-title {
@@ -65,22 +65,22 @@ header nav ul li a:hover {
 .profile-content {
     display: flex;
     align-items: center;
-    margin-top: 20px; /* Fügt Abstand zwischen dem Titel und dem Profilbild hinzu */
+    margin-top: 20px; 
 }
 
 .profile-image {
-    max-width: 300px; /* Erhöhe die Breite des Profilbilds auf 200px (angepasst nach Bedarf) */
+    max-width: 300px; 
     height: auto;
-    margin-right: 20px; /* Fügt Abstand zwischen dem Profilbild und dem Text hinzu */
-    display: block; /* Zentriert das Bild horizontal */
-    margin: 0 auto; /* Zentriert das Bild horizontal */
+    margin-right: 20px; 
+    display: block; 
+    margin: 0 auto; 
 }
 
 .profile-text {
     font-size: 1.1em;
     text-align: center;
-    line-height: 1.5; /* Verringert den Zeilenabstand, falls gewünscht */
-    font-family: 'Neue Schriftart', sans-serif; /* Hier kannst du die gewünschte Schriftart einfügen */
+    line-height: 1.5; 
+    font-family: 'Neue Schriftart', sans-serif; 
 }
 
 
@@ -89,8 +89,8 @@ header nav ul li a:hover {
     text-align: center;
     margin-top: 20px;
     margin-bottom: 20px;
-    border-radius: 10px; /* Hier kannst du den Radius anpassen, um die Ecken mehr oder weniger abzurunden */
-    padding: 0 200px; /* Fügt links und rechts 20px Padding hinzu */
+    border-radius: 10px; 
+    padding: 0 200px; 
 }
 
 .image-gallery img:hover {
@@ -102,11 +102,11 @@ header nav ul li a:hover {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin: -10px; /* Äußerer Abstand zu den Rändern */
+    margin: -10px; 
 }
 
 .image-row a {
-    flex-basis: calc(33.33% - 20px); /* 3 Bilder pro Zeile mit 20px Abstand */
+    flex-basis: calc(33.33% - 20px);
     margin: 10px;
 }
 
@@ -119,8 +119,8 @@ header nav ul li a:hover {
 .text-box {
     text-align: center;
     font-family: 'Montserrat', sans-serif;
-    margin: 0 auto; /* Horizontal zentriert */
-    max-width: 800px; /* Maximale Breite der Textboxen, anpassen nach Bedarf */
+    margin: 0 auto; 
+    max-width: 800px; 
 }
 
 
@@ -137,9 +137,9 @@ p {
     }
 
 h1 {
-    font-size: 5em; /* Doppelt so groß wie die Standardeinstellung */
+    font-size: 5em; 
     font-family: 'Montserrat', sans-serif;
-    font-weight: 700; /* Semi-Bold */
+    font-weight: 700; 
     font-style: italic;
     color: rgb(255, 136, 196);
 }
@@ -149,12 +149,12 @@ h2 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     color: rgb(255, 136, 196);
-    padding-top: 2em; /* Dies fügt den gewünschten oberen Abstand hinzu */
-    scroll-margin-top: 2em; /* Fügt den gewünschten oberen Abstand für die Navigation hinzu */
+    padding-top: 2em; 
+    scroll-margin-top: 2em; 
 }
 
 h3 {
-    font-size: 1.1em; /* Doppelt so groß wie die Standardeinstellung */
+    font-size: 1.1em; 
     font-family: 'Montserrat', sans-serif;
     color:hsl(330, 100%, 90%);
     text-align: center;
@@ -163,8 +163,8 @@ h3 {
 
 h3 a {
     color:hsl(330, 100%, 90%);
-    text-decoration: none; /* Entfernt die unterstrichene Textdekoration */
-    transition: color 0.3s; /* Fügt eine sanfte Farbübergangsanimation hinzu */
+    text-decoration: none; 
+    transition: color 0.3s; 
 }
 
 h3 a:hover {
@@ -185,24 +185,24 @@ h3 a:hover {
   }
 
   .newsletter-signup {
-    background-color: #fff; /* Hintergrundfarbe ändern, falls gewünscht */
+    background-color: #fff; 
     text-align: center;
-    max-width: 600px; /* Maximale Breite des Anmeldefelds anpassen */
-    margin: 0 auto; /* Zentrieren des Anmeldefelds horizontal */
-    border-radius: 5px; /* Runde Ecken für das Anmeldefeld */
+    max-width: 600px; 
+    margin: 0 auto; 
+    border-radius: 5px;
 }
 
 .newsletter-signup h2 {
     font-size: 1.5em;
     font-weight: bold;
-    color: #FF69B4; /* Überschriftenfarbe ändern */
+    color: #FF69B4; 
 }
 
 .newsletter-signup p {
     font-size: 1em;
     font-family: 'Montserrat', sans-serif;
     font: optional;
-    color: #333; /* Textfarbe ändern */
+    color: #333;
     margin-bottom: 20px;
 }
 
@@ -210,7 +210,7 @@ h3 a:hover {
     font-size: 1em;
     font-family: 'Montserrat', sans-serif;
     font: optional;
-    color: #333; /* Textfarbe ändern */
+    color: #333; 
     margin-bottom: 20px;
 }
 
@@ -223,14 +223,14 @@ h3 a:hover {
 }
 
 .newsletter-signup input[type="submit"] {
-    background-color: #FF69B4; /* Hintergrundfarbe des Anmeldebuttons ändern */
-    color: #fff; /* Schriftfarbe des Anmeldebuttons ändern */
+    background-color: #FF69B4; 
+    color: #fff; 
     padding: 10px 20px 10px;
     border: none;
     margin-left: 0px;
     cursor: pointer;
     width: 100%;
-    transition: background-color 0.3s; /* Hinzufügen einer Hintergrundfarbenanimation beim Überfahren */
+    transition: background-color 0.3s; 
 }
 
 
@@ -240,7 +240,7 @@ h3 a:hover {
     font-size: 1em;
 
     font-family: 'Montserrat', sans-serif;
-    background-color: #FF1493; /* Hintergrundfarbe bei Hover ändern */
+    background-color: #FF1493; 
 }
 
 .form-group {
@@ -250,14 +250,14 @@ h3 a:hover {
 }
 
 .form-group label {
-    flex: 1; /* Flexbox: Labels nehmen den verfügbaren Platz ein */
-    text-align: left; /* Labels links ausrichten */
-    margin-right: 10px; /* Abstand zwischen Label und Input */
+    flex: 1; 
+    text-align: left; 
+    margin-right: 10px; 
 }
 
 .form-group input {
-    flex: 2; /* Flexbox: Eingabefelder nehmen den verfügbaren Platz ein */
-    width: calc(100% - 20px); /* Breite anpassen, um den Platz für das Padding zu berücksichtigen */
+    flex: 2; 
+    width: calc(100% - 20px); 
     padding: 10px;
     margin: 10px;
     border: 1px solid #ccc;
@@ -296,8 +296,8 @@ h3 a:hover {
 footer {
     background-color: rgb(255, 255, 255);
     padding: 50px;
-    text-align: right; /* Rechtsbündig ausrichten */
-    position: relative; /* Damit die Positionierung funktioniert */
+    text-align: right; 
+    position: relative;
 }
 
 footer button {
@@ -308,8 +308,8 @@ footer button {
 	box-shadow: 4px 4px 4px silver;
     border-radius: 10px;
     font-family: 'Montserrat', sans-serif;
-    position: absolute; /* Position absolut innerhalb des Footers */
-    transform: translateY(-50%); /* Zur vertikalen Zentrierung */
+    position: absolute;
+    transform: translateY(-50%);
     background-color: #FFF;
 
     right: 20px; 
@@ -322,21 +322,20 @@ footer button:hover {
 }
 
 
-/* Media Query für kleinere Bildschirme (max. 1024px) */
+
 @media (max-width: 1024px) {
     .image-row a {
-        flex-basis: calc(50% - 20px); /* 2 Bilder pro Zeile mit 20px Abstand */
+        flex-basis: calc(50% - 20px); 
     }
 
     .image-gallery {
-        padding: 0 0; /* Fügt links und rechts 20px Padding hinzu */
+        padding: 0 0; 
     }
 }
 
-/* Media Query für noch kleinere Bildschirme (max. 767px) */
 @media (max-width: 767px) {
     .image-row a {
-        flex-basis: calc(100% - 20px); /* 1 Bild pro Zeile mit 20px Abstand */
+        flex-basis: calc(100% - 20px); 
     }
     .music-icon { display: none;
     }
@@ -345,7 +344,7 @@ footer button:hover {
 }
 
     .image-gallery {
-        padding: 0 0; /* Fügt links und rechts 20px Padding hinzu */
+        padding: 0 0; 
     }
 
     @media (max-width: 700px){
