@@ -15,3 +15,7 @@ Ich freue mich, dass ich jetzt weiss, wie man eine Seite von Grund auf erstellt 
 - Google (Zufällige Foren)
   <br>
 - Unterrichtsstoff FHGR IM1-5
+
+<b>Quellen</b>
+- www.zalando.ch
+  Die Texte auf der Seite sind alle von mir geschrieben. 
